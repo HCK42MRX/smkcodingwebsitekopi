@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.populer-section-container{
+  height: 250px;
+  margin: 0 auto;
+  background-color: #F6EBDA;
+}
+
+.populer-section-content{
+  position: relative;
+}
+
+.populer-section-content .biji-kopi{
+  max-width: 480px;
+  margin: 0 auto;
+  top: -70px;
+  left: -50px;
+  position: absolute;
+}
+
+.title span{
+  border-bottom: 3px solid #FF7E00;
+} 
+
+.menu{
+  position: relative;
+}
+
+.menu-content{
+  padding: 0 20px;
+}
+
+.bg-menu{
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  background-color: #F9D9AA;
+  height: 300px;
+  border-radius: 40px;
+}
+
+.card{
+  background-color: rgba(255, 255, 255, 0.616);
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.card-body{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.card-body img{
+  position: relative;
+  border-radius: 80px;
+}
+
+.variation-button p{
+  color: #FF9A3F;
+  text-align: center;
+  border: 3px solid #FF9A3F;
+  padding: 1px 10px;
+  border-radius: 10px;
+}
+
+.not-selected{
+  opacity: 0.5;
+}
+
+.rating{
+  color: black;
+  position: absolute;
+  top: 30px;
+  left: 35px;
+}
+
+.rating-text{
+  font-size: 15px;
+  background-color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+
+.bg-rating{
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.616);
+  height: 39px;
+  padding: 4px;
+}
+
+.cart img{
+  width: 40px;
+  background-color: #FF902A;
+  padding: 10px;
+}
